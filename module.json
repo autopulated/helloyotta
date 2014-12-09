@@ -1,14 +1,21 @@
 {
   "name": "helloyotta",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "homepage": "",
+  "description": "yotta Hello World example project",
+  "keywords": [
+    "example",
+    "tutorial"
+  ],
+  "author": "James Crosby <james.crosby@arm.com>",
+  "homepage": "https://github.com/ARMmbed/helloyotta",
+  "repository": {
+    "url": "git@github.com:ARMmbed/helloyotta.git",
+    "type": "git"
+  },
   "licenses": [
     {
-      "url": "https://spdx.org/licenses/ISC",
-      "type": "ISC"
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
     }
   ],
   "dependencies": {
@@ -19,6 +26,5 @@
       "mbed": "ARMmbed/mbed-sdk"
     }
   },
-
   "bin": "./source"
 }
