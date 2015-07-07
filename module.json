@@ -23,7 +23,7 @@
   },
   "targetDependencies": {
     "arm": {
-      "mbed": "ARMmbed/mbed-sdk"
+      "mbed-core": "*"
     }
   },
   "bin": "./source"
