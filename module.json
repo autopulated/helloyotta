@@ -22,8 +22,8 @@
     "simplelog": "~0.0.0"
   },
   "targetDependencies": {
-    "arm": {
-      "mbed-core": "*"
+    "mbed": {
+      "mbed-drivers": "*"
     }
   },
   "bin": "./source"
