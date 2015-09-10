@@ -14,9 +14,10 @@
 
 #include "simplelog/log.h"
 
-int main(){
+void app_start(int argc, char *argv[]) {
+    (void)argc;
+    (void)argv;
 
     simpleLog(Simple_Log_Info, "Hello yotta!");
 
-    return 0;
 }
