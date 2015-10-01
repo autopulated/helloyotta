@@ -21,3 +21,13 @@ void app_start(int argc, char *argv[]) {
     simpleLog(Simple_Log_Info, "Hello yotta!");
 
 }
+
+// for non-mbed-os targets, main is the entry point. The mbed OS scheduler uses
+// app-start as the entry point (see https://github.com/ARMmbed/mbed-drivers)
+#ifndef TARGET_LIKE_MBED
+int main(){
+    app_start(0, (void*)0);
+    return 0;
+}
+#endif
+
