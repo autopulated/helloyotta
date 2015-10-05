@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "simplelog": "~0.0.0"
+    "simplelog": "^1.0.0"
   },
   "targetDependencies": {
     "mbed": {
